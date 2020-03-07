@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.add-item-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#my-textarea {
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    height: 50px;
+}
+
+#my-list {
+    text-align: left;
+}
+
+li {
+    overflow-wrap: break-word;
+}
+
+button {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.container {
+    margin: 50px 100px;
+    text-align: center;
+}
